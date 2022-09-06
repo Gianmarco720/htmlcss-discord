@@ -30,10 +30,6 @@
     border: 2px solid red;
 }
 
-.debug [class^="col_"] {
-    background-color: #DAA520;
-}
-
 /* #region colonne */
 .col_1 {
     width: calc((100% / 12) * 1);
@@ -84,6 +80,7 @@ section {
     padding: 1rem;
 }
 
+/* #region jumbo */
 .jumbo {
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -97,8 +94,13 @@ section {
 
 .jumbo_txt {
     text-align: center;
-    padding: 10%;
+    padding: 10% 10% 2%;
 }
+
+.jumbo_button {
+    text-align: center;
+}
+/* #endregion jumbo */
 
 .grey {
     background-color: #D3D3D3;
