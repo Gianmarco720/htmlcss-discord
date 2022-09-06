@@ -23,10 +23,6 @@
     justify-content: space-between;
 }
 
-.row_prefooter {
-    display: flex;
-}
-
 .row_footer {
     display: flex;
     justify-content: space-between;
@@ -88,6 +84,7 @@ header {
 section {
     padding: 100px;
 }
+
 /* #endregion tags settings */
 
 /* #region jumbo */
@@ -114,16 +111,20 @@ section {
 
 /* #region impostazioni sezioni */
 #grey_sec {
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
 #keep_in_touch {
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
     text-align: center;
 }
 
 .kit_foot {
     padding-bottom: 50px;
+}
+
+.info_section {
+    background-color: #23272A;
 }
 /* #endregion impostazioni sezioni */
 
@@ -132,10 +133,12 @@ section {
 
 }
 
-.black {
-    background-color: #23272A;
+.flag {
+    width: 24px;
+    height: 16px;
+    margin-right: 8px;
+    margin-top: 10px;
 }
-
 .aqua {
     background-color: #7FFFD4;
 }
