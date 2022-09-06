@@ -76,7 +76,7 @@ img {
 }
 /* #endregion colonne */
 
-/* #region tags settings */
+/* #region impostazioni tag */
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -112,17 +112,24 @@ section {
 }
 /* #endregion jumbo */
 
-.grey {
+/* #region impostazioni sezioni */
+#grey_sec {
     background-color: #D3D3D3;
 }
 
 #keep_in_touch {
     background-color: #D3D3D3;
+    text-align: center;
 }
 
-.green {
-    background-color: #228B22;
-    height: 470px;
+.kit_foot {
+    padding-bottom: 50px;
+}
+/* #endregion impostazioni sezioni */
+
+/* #region bottoni */
+#mac_2 {
+
 }
 
 .black {
