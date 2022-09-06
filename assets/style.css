@@ -96,10 +96,8 @@ section {
 }
 
 .jumbo_txt {
-    display: flex;
-    justify-content: center;
-    height: 270px;
-    width: 750px;
+    text-align: center;
+    padding: 10%;
 }
 
 .grey {
