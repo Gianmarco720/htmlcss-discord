@@ -24,14 +24,9 @@
     justify-content: space-between;
 }
 
-.row_prefooter {
-
-}
-
 .row_footer {
     display: flex;
     justify-content: space-between;
-    border: 2px solid red;
 }
 
 img {
@@ -143,8 +138,34 @@ section {
     font-size: 8px;
 }
 
-#mac_2 {
+#mac_1 {
+    border: 0;
+    border-radius: 1rem;
+    padding: 5px;
+}
 
+#mac_2 {
+    border: 0;
+    border-radius: 1rem;
+    padding: 5px;
+    background-color: #7289DA;
+    color: white;
+}
+
+#browser {
+    border: 0;
+    border-radius: 1rem;
+    padding: 5px;
+    background-color: #23272A;
+    color: white;
+}
+
+#register {
+    border: 0;
+    border-radius: 1rem;
+    padding: 5px;
+    background-color: #7289DA;
+    color: white;
 }
 
 .flag {
@@ -152,9 +173,6 @@ section {
     height: 16px;
     margin-right: 8px;
     margin-top: 10px;
-}
-.aqua {
-    background-color: #7FFFD4;
 }
 
 a {
@@ -180,4 +198,9 @@ a {
 
 .fa-brands {
     padding: 10px;
+}
+
+footer {
+    background-color: #23272A;
+    border-top: 1px solid #7289DA;
 }
