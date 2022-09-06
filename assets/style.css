@@ -1,10 +1,12 @@
-/*common rules */
+/*#region common rules */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+/* #endregion common rules */
 
+/* #region utility */
 .container{
     width: 70%;
     max-width: 1200px;
@@ -34,6 +36,7 @@
 img {
     max-width: 100%;
 }
+/* #endregion utility */
 
 /* #region colonne */
 .col_1 {
@@ -73,6 +76,7 @@ img {
 }
 /* #endregion colonne */
 
+/* #region tags settings */
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -84,6 +88,7 @@ header {
 section {
     padding: 100px;
 }
+/* #endregion tags settings */
 
 /* #region jumbo */
 .jumbo {
@@ -111,10 +116,8 @@ section {
     background-color: #D3D3D3;
 }
 
-.foot_grey {
-    padding: 1rem;
+#keep_in_touch {
     background-color: #D3D3D3;
-    height: 500px;
 }
 
 .green {
