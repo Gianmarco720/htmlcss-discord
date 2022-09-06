@@ -201,6 +201,7 @@ a {
 }
 
 footer {
+    padding: 1rem;
     background-color: #23272A;
     border-top: 1px solid #7289DA;
 }
