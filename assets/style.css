@@ -20,6 +20,7 @@
 
 .row_header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -129,6 +130,13 @@ section {
 /* #endregion impostazioni sezioni */
 
 /* #region bottoni */
+#login_1 {
+    border: 0;
+    border-radius: 1rem;
+    padding: 5px;
+    font-size: 8px;
+}
+
 #mac_2 {
 
 }
@@ -152,5 +160,4 @@ a {
 .link_nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
