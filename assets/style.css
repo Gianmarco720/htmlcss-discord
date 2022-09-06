@@ -24,6 +24,10 @@
     justify-content: space-between;
 }
 
+.row_prefooter {
+
+}
+
 .row_footer {
     display: flex;
     justify-content: space-between;
@@ -126,6 +130,8 @@ section {
 
 .info_section {
     background-color: #23272A;
+    padding: 0px;
+    color: white;
 }
 /* #endregion impostazioni sezioni */
 
@@ -160,4 +166,14 @@ a {
 .link_nav {
     display: flex;
     justify-content: space-between;
+}
+
+.info_title {
+    color: #7289DA;
+    padding-top: 30%;
+}
+
+.info_content {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
